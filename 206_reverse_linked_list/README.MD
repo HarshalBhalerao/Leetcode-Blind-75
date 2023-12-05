@@ -22,6 +22,7 @@ Time Complexity: O(n) and Space Complexity: O(1)
 - Then we set the reversed head's next pointer to null.
 
 Eg: head -> 1 -> 2 -> 3 -> null
+
 Reverse using recursion:
 - head -> 3 -> null 
 - head -> 3 -> 2 -> null 
