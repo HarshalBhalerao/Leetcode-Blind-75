@@ -14,3 +14,5 @@ class Solution:
         # thus, the 1 we have is for the root node, then we consider its children
         # and get the depth of each sub-tree by doing the following below
         return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+
+# Time Complexity: O(n) and Space Complexity: O(n)
